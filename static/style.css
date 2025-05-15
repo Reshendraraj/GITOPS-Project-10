@@ -1,0 +1,99 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f4f6f9, #dfe9f3);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+/* Container */
+form {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Labels */
+label {
+    font-weight: 600;
+    color: #34495e;
+    display: block;
+    margin-bottom: 6px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Button */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Prediction Message */
+h2 {
+    margin-top: 30px;
+    text-align: center;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 30px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
